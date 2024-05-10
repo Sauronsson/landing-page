@@ -135,3 +135,53 @@ ul a{
     font-size: 20px;
     font-weight: bold;
 }
+
+.call {
+    padding: 50px 15%;
+    margin: 0;
+    background-color: #F9FAF8;
+}
+
+.call .content {
+    background-color: #3882F6;
+    padding: 30px 75px;
+    border-radius:12px;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.call .action {
+    color:#F9FAF8;
+    font-size: 18px;
+    font-weight:700;
+}
+
+.call .description {
+    color:#E5E7EB;
+    font-size: 12px;
+}
+
+.call button {
+    background-color:#3882F6;
+    color:#F9FAF8;
+    border-color:#F9FAF8;
+    border-style:solid;
+    border-radius: 12px;
+    padding: 4px 20px;
+    align-self:center;
+    flex: 0 0 none;
+}
+
+.footer {
+    background-color: #1F2937;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:35px 0px;
+}
+
+.footer .text{
+    color:#F9FAF8;
+    font-size: 15px;
+}
