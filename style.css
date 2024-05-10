@@ -2,6 +2,7 @@
 body, html {
     padding: 0;
     margin: 0;
+    font-family: sans-serif;
 }
 
 .header {
@@ -10,6 +11,7 @@ body, html {
     display:flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0;
 }
 
 .logo {
@@ -27,3 +29,85 @@ ul a{
     display:flex;
     gap:20px;
 } 
+
+.hero {
+    background-color:#1F2937;
+    padding: 50px 15%;
+    margin: 0;
+    display:flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.image {
+    flex: 1 0 auto;
+    width:400px;
+    color:white;
+    background-color: grey;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin:0;
+    padding:0;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin:0;
+    padding:0;
+}
+
+.hero button {
+    color:#F9FAF8;
+    background-color:#3882F6;
+    border-radius:8px;
+    padding: 4px 20px;
+    margin-top: 5px;
+    border:none;
+}
+
+.information {
+    padding: 50px 15%;
+    margin: 0;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.information h1 {
+    font-size: 36px;
+    font-weight: bolder;
+    color:#1F2937;
+}
+
+.information .collection{
+    display: flex;
+    gap:40px;
+    justify-content: center;
+    flex-wrap:wrap;
+
+}
+
+.card {
+    width:150px;
+}
+
+.card p {
+    text-align: center;
+}
+
+.card .icon{
+   flex: 0 0 auto;
+   width: 150px;
+   height: 150px;
+   border-radius: 8px;
+   border: 3px solid #3882F6;
+}
